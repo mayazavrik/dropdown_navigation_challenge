@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body * {
+  font-family: "Epilogue", sans-serif;
+}
+
+/*@layer components {
+  .btn-register {
+    @apply border-2 border-gray-500 rounded-lg px-3 py-1.5 hover:text-black;
+  }
+}*/
+
+/* It's faster! :) */
